@@ -22,25 +22,38 @@ If you've got yourself a substantial collection of component values, you might b
 
 ## Installation
 
-  1. Clone the repository to your local machine: `git clone https://github.com/owlcreekworkshop/component-label-maker`.
+  1. Clone the repository to your local machine: 
   
-  2. Navigate to the project directory: `cd component-label-maker`.
+         git clone https://github.com/owlcreekworkshop/component-label-maker
+  
+  2. Navigate to the project directory: 
+  
+         cd component-label-maker
  
-  3. Install support for Python virtual environments: `pip install --user virtualenv`
+  3. Install support for Python virtual environments: 
+  
+         pip install --user virtualenv
 
   4. Create and activate the virtual environment: 
 
-     - On Windows: `python -m venv venv` then `venv\Scripts\activate`.
+     - On Windows: 
+     
+           python -m venv venv` then `venv\Scripts\activate
+     
 
-     - On macOS and Linux: `python3 -m venv venv` then `source venv/bin/activate`.
+     - On macOS and Linux: 
+     
+           python3 -m venv venv` then `source venv/bin/activate
 
-  5. Install project dependencies: `pip install -r requirements.txt`.
+  5. Install project dependencies: 
+  
+         pip install -r requirements.txt
 
 ## Usage
 
 The `labelmaker` utility can be invoked using the following syntax:
 
-    (venv) $ python3 -m labelmaker <OPTIONS> [COMMAND] [OUTFILE] [VALUES]
+    python3 -m labelmaker <OPTIONS> [COMMAND] [OUTFILE] [VALUES]
 
 #### `OPTIONS`
 
@@ -92,19 +105,19 @@ A few lists of standard values are provided in the `/values` directory:
 
 **Generate capacitor labels using values from the command line:**
 
-    (venv) $ python3 -m labelmaker capacitor labels.pdf 0.1u,4.7u
+    python3 -m labelmaker capacitor labels.pdf 0.1u,4.7u
 
 **Generate capacitor labels using values from a file:**
 
-    (venv) $ python3 -m labelmaker capacitor labels.pdf values/capacitor-ceramic-standard.txt
+    python3 -m labelmaker capacitor labels.pdf values/capacitor-ceramic-standard.txt
 
 **Generate full-color inductor labels using values from the command line:**
 
-    (venv) $ python3 -m labelmaker inductor labels.pdf 0.1u,4.7u
+    python3 -m labelmaker inductor labels.pdf 0.1u,4.7u
 
 **Generate black and white resistor labels with a folding guideline for standard E12 series:**
 
-    (venv) $ python3 -m labelmaker --no-color --divider resistor labels.pdf values/resistor-standard-E12.txt
+    python3 -m labelmaker --no-color --divider resistor labels.pdf values/resistor-standard-E12.txt
 
 ## Contributing
 
