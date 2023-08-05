@@ -138,7 +138,7 @@ If you've found my work useful and would like to show your appreciation, the sim
 If this work has made a significant impact on your projects and you'd like to contribute monetarily, you can also treat me to a coffee.
 
 <a href="https://www.buymeacoffee.com/owlcreekworkshop" target="_blank">
-    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="60" width="217">
+    <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="40">
 </a>
 
 [python_url]: https://www.python.org/downloads/
