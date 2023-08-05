@@ -5,7 +5,7 @@ from labelmaker.component.component_value import ComponentValue
 
 class ResistorValue():
     def __init__(self, value: ComponentValue):
-        if type(value) == ComponentValue:
+        if isinstance(value, ComponentValue):
             self.decorated = value
         else:
             self.decorated = ComponentValue(value)
